@@ -1,12 +1,21 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import Nav from '@/components/nav'
+import Header from '@/components/header'
+import Services from '@/components/services'
+import About from '@/components/about'
+import LatestProjects from '@/components/latestprojects'
+import Footer from '@/components/footer'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    ></main>
+    <main>
+      <Nav />
+      <Header />
+      <Services />
+      <About />
+      <LatestProjects />
+      <Footer />
+    </main>
   )
 }
