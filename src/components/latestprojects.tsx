@@ -25,7 +25,7 @@ function LatestProjects() {
                 </div>
                 <div className='lg:w-1/2 lg:h-full lg:pl-28 lg:pr-10 xs:w-full xs:h-1/2 flex flex-col justify-center items-center '>
                     <h3 className="font-bold text-2xl pb-4">Website para empresas</h3>
-                    <p className="pt-2">Este sitio web lo realizamos un negocio que realiza trabajos de mantenimiento 
+                    <p className="pt-2">Este sitio web lo realizamos para un negocio que realiza trabajos de mantenimiento 
                         de pisos en la ciudad de Caracas, Venezuela.  
                     </p>
                     <p className="pt-2">Teck Stack: #Nextjs, #Typescript, #DigitalOcean</p>

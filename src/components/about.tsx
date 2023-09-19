@@ -9,13 +9,13 @@ function About() {
             </div>
             <div className="w-1/2 h-full flex flex-col  justify-center">
                 <div className="pb-0 md:pl-20 md:pr-20">
-                    <p className=" text-2xl text-cyan-400 font-bold">Sobre nosotros</p>
-                    <p className="pt-2">
+                    <p className=" text-3xl text-cyan-400 font-bold">Sobre nosotros</p>
+                    <p className="pt-2 ">
                         Somos una empresa dedicada al marketing y desarrollo web y mobile, con el objetivo de ayudar 
                         a las empresas a crecer y a tener una mejor presencia en internet. Proveemos todo lo que requieres 
                         para elevar tu negocio al siguiente nivel. 
                     </p>
-                    <div className="pt-2 flex w-full items-center">
+                    <div className="pt-4 flex w-full items-center">
                         <p>Páginas web</p>
                         <div className=" flex justify-between">
                             <div className="pl-4">
