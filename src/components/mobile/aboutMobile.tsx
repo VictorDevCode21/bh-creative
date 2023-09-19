@@ -3,15 +3,16 @@ import { SiGmail, SiJavascript, SiMysql, SiNodedotjs, SiAdobeillustrator, SiAdob
 
 function AboutMobile() {
     return (
-        <section className="w-full h-full md:hidden xs:flex xs:flex-col pt-96">
-            <div className="w-full h-64 pl-4 pr-4">
+        <section id="aboutm" className="w-full h-full md:hidden xs:flex xs:flex-col pt-20 pb-48">
+            <div  className="w-full h-64 pl-4 pr-4">
                 <Image src="/images/profile-photo2.jpg" alt="profile-photo3.jpg" width={500} height={500} />
             </div>
             <div className="w-full h-48 pl-4 pr-4">
-                <p className=" text-2xl text-blue-500 font-bold">Sobre nosotros</p>
-                <p className="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sed nemo minima consequatur inventore
-                    molestiae quae?
-                    Modi beatae sapiente nemo adipisci ducimus facilis a. Aspernatur facere quaerat iusto commodi quidem!
+                <p className=" text-2xl text-cyan-400 font-bold pt-4">Sobre nosotros</p>
+                <p className="pt-2">
+                    Somos una empresa dedicada al marketing y desarrollo web y mobile, con el objetivo de ayudar
+                    a las empresas a crecer y a tener una mejor presencia en internet. Proveemos todo lo que requieres
+                    para elevar tu negocio al siguiente nivel.
                 </p>
                 <div className="pt-2 flex w-full items-center">
                     <p>Paginas web</p>

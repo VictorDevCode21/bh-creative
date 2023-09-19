@@ -33,6 +33,7 @@ module.exports = {
         'blue-tw':'#1DA1F2',
         'gray-gm':'#4B4B4B',
         'gray-hvr': '#a6a2a2',
+        'orange-light': '#FF5E01',
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

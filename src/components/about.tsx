@@ -3,16 +3,17 @@ import { SiGmail,SiJavascript,SiMysql,SiNodedotjs,SiAdobeillustrator,SiAdobeprem
 
 function About() {
     return (
-        <section className="w-full h-screen md:flex xs:hidden">
+        <section id="about" className="w-full h-screen md:flex xs:hidden">
             <div className="w-1/2 h-full flex items-center justify-center md:pl-28">
                 <Image src="/images/profile-photo3.jpg" alt="about" width={1080} height={720} />
             </div>
             <div className="w-1/2 h-full flex flex-col  justify-center">
                 <div className="pb-0 md:pl-20 md:pr-20">
-                    <p className=" text-2xl text-blue-500 font-bold">Sobre nosotros</p>
-                    <p className="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid sed nemo minima consequatur inventore
-                        molestiae quae?
-                        Modi beatae sapiente nemo adipisci ducimus facilis a. Aspernatur facere quaerat iusto commodi quidem!
+                    <p className=" text-2xl text-cyan-400 font-bold">Sobre nosotros</p>
+                    <p className="pt-2">
+                        Somos una empresa dedicada al marketing y desarrollo web y mobile, con el objetivo de ayudar 
+                        a las empresas a crecer y a tener una mejor presencia en internet. Proveemos todo lo que requieres 
+                        para elevar tu negocio al siguiente nivel. 
                     </p>
                     <div className="pt-2 flex w-full items-center">
                         <p>Páginas web</p>
