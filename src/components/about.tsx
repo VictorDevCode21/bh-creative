@@ -5,7 +5,7 @@ function About() {
     return (
         <section id="about" className="w-full h-screen md:flex xs:hidden">
             <div className="w-1/2 h-full flex items-center justify-center md:pl-28">
-                <Image src="/images/profile-photo3.jpg" alt="about" width={1080} height={720} />
+                <Image src="/images/profile-photo9.jpg" alt="about" width={1080} height={720} />
             </div>
             <div className="w-1/2 h-full flex flex-col  justify-center">
                 <div className="pb-0 md:pl-20 md:pr-20">

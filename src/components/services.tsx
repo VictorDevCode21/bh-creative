@@ -2,8 +2,8 @@
 
 function Services() {
     return (
-        <section id="services" className="w-full h-full">
-            <div className="w-full flex items-center xs:justify-start md:justify-start xs:pt-28 xs:pb-5 md:pt-4 md:pb-0 md:pl-40">
+        <section id="services" className="w-full h-full ">
+            <div className="w-full flex items-center xs:justify-start md:justify-start xs:pt-28 xs:pb-5 md:pt-4 md:pb-0 md:pl-40 lg:pt-0">
                 <p className="font-bold text-3xl text-cyan-400 lg:pt-20 xs:pl-4 md:pl-0">Servicios <br></br> en los que nos especializamos</p>
             </div>
             <div className="w-full flex md:flex-row xs:flex-col items-end justify-start md:pt-6 md:pr-0 lg:pl-36">

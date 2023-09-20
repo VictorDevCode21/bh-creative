@@ -7,9 +7,10 @@ function Header() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = [
-        '/images/profile-photo.jpg',
-        '/images/profile-photo2.jpg',
         '/images/profile-photo3.jpg',
+        '/images/profile-photo4.jpg',
+        '/images/profile-photo5.jpg',
+        '/images/profile-photo6.jpg',
     ]
 
     const goToPreviousSlide = () => {
@@ -26,22 +27,22 @@ function Header() {
     return (
         <header id="home" className="w-full h-screen lg:flex xs:hidden">
             <div className="w-1/2 h-full relative z-50">
-                <Image className="w-full h-full rounded-br-3xl"
+                <Image className="w-full h-4/5 rounded-br-3xl"
                     src={slides[currentSlide]}
                     alt=""
                     width={1080}
                     height={1080}
                 />
-                <h1 className="absolute top-40 left-3/4 pl-10 text-8xl text-cyan-400">BH CREATIVE</h1>
-                <div className="absolute bottom-16 right-5">
+                <h1 className="absolute top-24 left-3/4 pl-10 text-7xl text-cyan-400">BH CREATIVE</h1>
+                <div className="absolute bottom-52 right-5">
                     <button className="p-2 rounded-full text-white bg-cyan-400" onClick={goToPreviousSlide}><AiFillCaretLeft size={10} /></button>
                 </div>
-                <div className="absolute bottom-8 right-5">
+                <div className="absolute bottom-60 right-5">
                     <button className="p-2 rounded-full text-white bg-cyan-400" onClick={goToNextSlide}><AiFillCaretRight size={10} /></button>
                 </div>
             </div>
             <div className="w-1/2 flex flex-col justify-center ">
-                <h2 className="pt-72 pl-6 pb-6 lg:text-xl xs:text-base">
+                <h2 className="pt-20 pl-6 pb-6 lg:text-lg xs:text-base">
                     Nos especializamos en elevar el estatus de tu marca personal y comercial.
                     Expandiendo y mejorando tu alcance a nivel web usando redes sociales, aplicaciones y
                     páginas web. Esto te va a hacer pertenecer al grupo de emprendedores y negocios exitosos. No

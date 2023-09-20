@@ -39,7 +39,7 @@ function Footer() {
                     </Link>
                 </div>
                 <div className='xs:pl-1 xs:pr-1 md:pr-0 md:pl-0'>
-                    <Link href="https://www.instagram.com/bhcreative_/">
+                    <Link href="https://twitter.com/bhcreativecorp">
                         <button className="p-2 shadow-md shadow-gray-400 rounded-full">
                             <FaXTwitter size={20} />
                         </button>
