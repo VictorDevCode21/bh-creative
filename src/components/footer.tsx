@@ -18,7 +18,7 @@ function Footer() {
                     </Link>
                 </div>
                 <div className='xs:pl-1 xs:pr-1 md:pr-0 md:pl-0'>
-                    <Link href="https://www.instagram.com/bh_creativecorp/">
+                    <Link href="http://wa.me/+584242082286">
                         <button className="p-2 shadow-md shadow-gray-400 rounded-full">
                             <FaWhatsapp size={20} />
                         </button>
@@ -32,7 +32,7 @@ function Footer() {
                     </a>
                 </div>
                 <div className='xs:pl-1 xs:pr-1 md:pr-0 md:pl-0'>
-                    <Link href="https://www.instagram.com/bh_creativecorp/">
+                    <Link href="https://www.tiktok.com/@bhcreative">
                         <button className="p-2 shadow-md shadow-gray-400 rounded-full">
                             <FaTiktok size={20} />
                         </button>
