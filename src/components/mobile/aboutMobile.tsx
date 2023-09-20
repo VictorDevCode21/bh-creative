@@ -5,7 +5,7 @@ function AboutMobile() {
     return (
         <section id="aboutm" className="w-full h-full md:hidden xs:flex xs:flex-col pt-20 pb-48">
             <div  className="w-full h-64 pl-4 pr-4">
-                <Image src="/images/profile-photo2.jpg" alt="profile-photo3.jpg" width={500} height={500} />
+                <Image className="w-full h-full" src="/images/about-photo.jpg" alt="profile-photo3.jpg" width={500} height={500} />
             </div>
             <div className="w-full h-48 pl-4 pr-4">
                 <p className=" text-2xl text-cyan-400 font-bold pt-4">Sobre nosotros</p>
