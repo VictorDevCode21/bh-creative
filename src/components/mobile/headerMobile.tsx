@@ -5,10 +5,10 @@ function HeaderMobile() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = [
-        "/images/profile-photo3.jpg",
-        "/images/profile-photo4.jpg",
-        "/images/profile-photo5.jpg",
-        "/images/profile-photo6.jpg",
+        "/images/profile-mobile3.jpg",
+        "/images/profile-mobile1.jpg",
+        "/images/profile-mobile2.jpg",
+        "/images/profile-mobile4.jpg",
     ]
 
     const goToPreviousSlide = () => {
@@ -28,7 +28,7 @@ function HeaderMobile() {
     };
 
     return (
-        <header id="homem" className="w-full h-screen flex bg-cover bg-center xs:flex lg:hidden rounded-br-3xl relative" style={backgroundStyle}>
+        <header id="homem" className="w-full h-screen flex bg-cover  xs:flex lg:hidden rounded-br-3xl relative" style={backgroundStyle}>
             <div className="w-full h-full flex flex-col items-start justify-center">
                 <h1 className="text-5xl text-cyan-400 pb-4 pl-8">BH CREATIVE</h1>
                 <h2 className="text-white pr-6 pl-8 text-sm ">
