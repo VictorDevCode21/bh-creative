@@ -7,10 +7,10 @@ function Header() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = [
+        '/images/profile-photo6.jpg',
         '/images/profile-photo3.jpg',
         '/images/profile-photo4.jpg',
         '/images/profile-photo5.jpg',
-        '/images/profile-photo6.jpg',
     ]
 
     const goToPreviousSlide = () => {
