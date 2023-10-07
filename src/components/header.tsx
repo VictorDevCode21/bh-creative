@@ -43,14 +43,10 @@ function Header() {
             </div>
             <div className="w-1/2 flex flex-col justify-center ">
                 <h2 className="pt-20 pl-6 pb-6 lg:text-lg xs:text-base">
-                    Nos especializamos en elevar el estatus de tu marca personal y comercial.
-                    Expandiendo y mejorando tu alcance a nivel web usando redes sociales, aplicaciones y
-                    páginas web. Esto te va a hacer pertenecer al grupo de emprendedores y negocios exitosos. No
-                    te quedes atrás... Sigue leyendo para poder informarte de con que trabajamos y podemos
-                    ayudarte para alcanzar un nuevo nivel en tu negocio, empresa y marca.
+                Harness the Power of Automation with BH Creative: <br></br> Elevate Your Business Through E-commerce, PIM, DAM, and Digital Marketing Solutions.
                 </h2>
-                <a href="mailto:bhcreativecorp@gmail.com" className="pl-6 ">
-                    <button className="px-4 rounded-md bg-cyan-500 font-semibold text-white text-xl">Contáctanos</button>
+                <a href="mailto:info@bhcreativecorp.com" className="pl-6 ">
+                    <button className="px-4 rounded-md bg-cyan-500 font-semibold text-white text-xl">Contact us</button>
                 </a>
             </div>
         </header>

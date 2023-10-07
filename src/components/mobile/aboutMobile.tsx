@@ -8,14 +8,14 @@ function AboutMobile() {
                 <Image className="w-full h-full" src="/images/about-photo.jpg" alt="profile-photo3.jpg" width={500} height={500} />
             </div>
             <div className="w-full h-48 pl-4 pr-4">
-                <p className=" text-2xl text-cyan-400 font-bold pt-4">Sobre nosotros</p>
+                <h2 className=" text-2xl text-cyan-400 font-bold pt-4">About us</h2>
                 <p className="pt-2">
-                    Somos una empresa dedicada al marketing y desarrollo web y mobile, con el objetivo de ayudar
-                    a las empresas a crecer y a tener una mejor presencia en internet. Proveemos todo lo que requieres
-                    para elevar tu negocio al siguiente nivel.
+                    We are a company dedicated to marketing and web and mobile development, with the aim of helping
+                    businesses grow and have a better online presence. We provide everything you need
+                    to take your business to the next level.
                 </p>
                 <div className="pt-2 flex w-full items-center">
-                    <p>Paginas web</p>
+                    <h3>Websites</h3>
                     <div className=" flex justify-between">
                         <div className="pl-2">
                             <SiJavascript size={15} />
@@ -56,7 +56,7 @@ function AboutMobile() {
                     </div>
                 </div>
                 <div className="pt-2 flex w-full items-center">
-                    <p>Diseño gráfico</p>
+                    <h3>Graphic Desing</h3>
                     <div className=" flex justify-between">
                         <div className="pl-2">
                             <SiAdobephotoshop size={15} />
@@ -70,7 +70,7 @@ function AboutMobile() {
                     </div>
                 </div>
                 <div className="pt-2 flex w-full items-center">
-                    <p>Community Manager</p>
+                    <h3>Community Manager</h3>
                     <div className=" flex justify-between">
                         <div className="pl-2">
                             <SiAdobephotoshop size={15} />
@@ -84,7 +84,7 @@ function AboutMobile() {
                     </div>
                 </div>
                 <div className="pt-2 flex w-full items-center">
-                    <p>Edicion de videos</p>
+                    <h3>Video Editing</h3>
                     <div className=" flex justify-between">
                         <div className="pl-2">
                             <SiAdobephotoshop size={15} />
@@ -101,7 +101,7 @@ function AboutMobile() {
                     </div>
                 </div>
                 <div className="pt-2 flex w-full items-center">
-                    <p>Copywriting</p>
+                    <h3>Copywriting</h3>
                     <div className=" flex justify-between">
                         <div className="pl-2">
                             <SiAdobephotoshop size={15} />
@@ -112,7 +112,7 @@ function AboutMobile() {
                     </div>
                 </div>
                 <div className="pt-2 flex w-full items-center">
-                    <p>Aplicaciones Mobile</p>
+                    <h3>Mobile Applications</h3>
                     <div className=" flex justify-between">
                         <div className="pl-2">
                             <SiFlutter size={15} />

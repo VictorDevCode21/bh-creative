@@ -32,14 +32,10 @@ function HeaderMobile() {
             <div className="w-full h-full flex flex-col items-start justify-center">
                 <h1 className="text-5xl text-cyan-400 pb-4 pl-8">BH CREATIVE</h1>
                 <h2 className="text-white pr-6 pl-8 text-sm ">
-                    Nos especializamos en elevar el estatus de tu marca personal y comercial.
-                    Expandiendo y mejorando tu alcance a nivel web usando redes sociales, aplicaciones y
-                    páginas web. Esto te va a hacer pertenecer al grupo de emprendedores y negocios exitosos. No
-                    te quedes atrás. Sigue leyendo para poder informarte de con que trabajamos y podemos
-                    ayudarte para alcanzar un nuevo nivel en tu negocio, empresa y marca.
+                    Harness the Power of Automation with BH Creative: <br></br> Elevate Your Business Through E-commerce, PIM, DAM, and Digital Marketing Solutions.
                 </h2>
-                <a href="mailto:bhcreativecorp@gmail.com" className=" pl-8 pt-4">
-                    <button className="px-4 rounded-md bg-cyan-400 font-semibold text-white text-base">Contáctanos</button>
+                <a href="mailto:info@bhcreativecorp.com" className=" pl-8 pt-4">
+                    <button className="px-4 rounded-md bg-cyan-400 font-semibold text-white text-base">Contact Us</button>
                 </a>
                 <div className="absolute bottom-24 right-5">
                     <button className="p-2 rounded-full text-white bg-cyan-400" onClick={goToPreviousSlide}><AiFillCaretLeft size={15} /></button>

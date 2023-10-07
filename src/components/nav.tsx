@@ -13,11 +13,11 @@ function Nav() {
       </div>
       <div className="w-1/2 h-20 lg:flex lg:items-center lg:justify-center xs:hidden">
         <div className="w-full h-full flex justify-between items-center lg:pr-10 lg:pl-10">
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="home" smooth={true} duration={500} >Inicio</Link>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="services" smooth={true} duration={500} >Servicios</Link>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="about" smooth={true} duration={500} >Sobre nosotros</Link>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="projects" smooth={true} duration={500} >Proyectos</Link>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="contact" smooth={true} duration={500} >Contacto</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="home" smooth={true} duration={500} >Home</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="services" smooth={true} duration={500} >Services</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="about" smooth={true} duration={500} >About</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="latest-projects" smooth={true} duration={500} >Projects</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="contact" smooth={true} duration={500} >Contact</Link>
         </div>
       </div>
       <div className="w-1/2 h-20 flex lg:hidden xs:flex justify-end items-center pr-6 relative">
@@ -27,11 +27,11 @@ function Nav() {
       </div>
       {open && (
         <div className='bg-gray-400 absolute top-16 right-6 flex flex-col items-center w-28'>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="homem" smooth={true} duration={500} >Inicio</Link>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="services" smooth={true} duration={500} >Servicios</Link>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="aboutm" smooth={true} duration={500} >Sobre nosotros</Link>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="projects" smooth={true} duration={500} >Proyectos</Link>
-          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="contact" smooth={true} duration={500} >Contacto</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="homem" smooth={true} duration={500} >Home</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="services" smooth={true} duration={500} >Services</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="aboutm" smooth={true} duration={500} >About</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="latest-projects" smooth={true} duration={500} >Projects</Link>
+          <Link className="text-black text-lg font-semibold hover:text-cyan-400 cursor-pointer" to="contact" smooth={true} duration={500} >Contact</Link>
         </div>
       )}
     </nav>
