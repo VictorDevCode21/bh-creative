@@ -3,8 +3,9 @@ module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       fontFamily: {
@@ -19,6 +20,7 @@ module.exports = {
         'md': '768px',
         'lg': '1024px',
         'xl': '1280px',
+        'sxl': '1180px',
         '2xl': '1536px',
       },
       colors:{
@@ -34,6 +36,20 @@ module.exports = {
         'gray-gm':'#4B4B4B',
         'gray-hvr': '#a6a2a2',
         'orange-light': '#FF5E01',
+        dark: "#1b1b1b",
+        light: "#fff",
+        accent: "#7B00D3",
+        accentDark: "#ffdb4d",
+        gray: "#747474",
+      },
+      animation:{
+        roll: "roll 24s linear infinite"
+      },
+      keyframes:{
+        roll:{
+          "0%": {transform: "translateX(100%)"},
+          "100%": {transform: "translateX(-100%)"}
+        }
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -42,5 +58,8 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+    require('@tailwindcss/typography'),
+  ],
 }

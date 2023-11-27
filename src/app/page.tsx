@@ -1,25 +1,21 @@
-import Image from 'next/image'
-import Nav from '@/components/nav'
-import Header from '@/components/header'
 import Services from '@/components/services'
 import About from '@/components/about'
 import LatestProjects from '@/components/latestprojects'
-import Footer from '@/components/footer'
-import HeaderMobile from '@/components/mobile/headerMobile'
 import AboutMobile from '@/components/mobile/aboutMobile'
-
+import { allBlogs } from 'contentlayer/generated'
+import Header from '@/components/header'
+import HeaderMobile from '@/components/mobile/headerMobile'
 
 export default function Home() {
+  console.log(allBlogs)
   return (
-    <main>
-      <Nav />
+    <main className='dark:text-light'>
       <Header />
       <HeaderMobile />
       <Services />
       <About />
       <AboutMobile />
       <LatestProjects />
-      <Footer />
     </main>
   )
 }

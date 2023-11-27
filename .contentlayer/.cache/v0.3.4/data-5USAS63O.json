@@ -1,0 +1,37 @@
+{
+  "cacheItemsMap": {
+    "blog-one/index.mdx": {
+      "document": {
+        "title": "Blog One Title",
+        "publishedAt": "2023-10-08T04:00:00.000Z",
+        "updatedAt": "2023-10-08T04:00:00.000Z",
+        "description": "Description for Blog One",
+        "image": "../../public/blogs/Blog-Big-Top.png",
+        "isPublished": true,
+        "author": "BH Creative",
+        "tags": [
+          "productivity",
+          "css",
+          "javascript\r"
+        ],
+        "body": {
+          "raw": "\r\n# this is an h1\r\n## this is an h2",
+          "html": "<h1>this is an h1</h1>\n<h2>this is an h2</h2>"
+        },
+        "_id": "blog-one/index.mdx",
+        "_raw": {
+          "sourceFilePath": "blog-one/index.mdx",
+          "sourceFileName": "index.mdx",
+          "sourceFileDir": "blog-one",
+          "contentType": "mdx",
+          "flattenedPath": "blog-one"
+        },
+        "type": "Blog_BHCreative",
+        "url": "/blog/blog-one"
+      },
+      "documentHash": "1696815359571",
+      "hasWarnings": false,
+      "documentTypeName": "Blog_BHCreative"
+    }
+  }
+}

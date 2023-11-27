@@ -1,3 +1,5 @@
+'use client'
+
 import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai"
 import {useState} from 'react'
 

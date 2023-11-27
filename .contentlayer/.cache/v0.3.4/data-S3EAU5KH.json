@@ -1,0 +1,45 @@
+{
+  "cacheItemsMap": {
+    "blog-one/index.mdx": {
+      "document": {
+        "title": "Blog One Title",
+        "publishedAt": "2023-10-08T04:00:00.000Z",
+        "updatedAt": "2023-10-08T04:00:00.000Z",
+        "description": "Description for Blog One",
+        "image": {
+          "filePath": "../public/blogs/Blog-Big-Top.png",
+          "relativeFilePath": "../../public/blogs/Blog-Big-Top.png",
+          "format": "png",
+          "height": 4297,
+          "width": 1912,
+          "aspectRatio": 0.4449616011170584,
+          "blurhashDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAUElEQVR4nGP4TwAw+Hn5/Pf19P4vJCzy/+Tp8/9BfBDbSSgJjAmbAMRw8PTMNwyMokBFUw8DoyjABkhUcJnt//+Hyf//P879//+mNVDg/38AxXXcVMdslF8AAAArdEVYdENyZWF0aW9uIFRpbWUATW9uLCAwOSBPY3QgMjAyMyAwMTo1OTowMSBHTVST/XhwAAAALnRFWHRTb2Z0d2FyZQBnaXRodWIuY29tL21hdG1lbi9JbWFnZVNjcmlwdCB2MS4yLjE26Nm9hgAAAABJRU5ErkJggg=="
+        },
+        "isPublished": true,
+        "author": "BH Creative",
+        "tags": [
+          "productivity",
+          "css",
+          "javascript\r"
+        ],
+        "body": {
+          "raw": "\r\n# this is an h1\r\n## this is an h2",
+          "html": "<h1>this is an h1</h1>\n<h2>this is an h2</h2>"
+        },
+        "_id": "blog-one/index.mdx",
+        "_raw": {
+          "sourceFilePath": "blog-one/index.mdx",
+          "sourceFileName": "index.mdx",
+          "sourceFileDir": "blog-one",
+          "contentType": "mdx",
+          "flattenedPath": "blog-one"
+        },
+        "type": "Blog",
+        "url": "/blog/blog-one"
+      },
+      "documentHash": "1696815359571",
+      "hasWarnings": false,
+      "documentTypeName": "Blog"
+    }
+  }
+}

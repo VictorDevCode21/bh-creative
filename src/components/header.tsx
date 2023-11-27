@@ -1,3 +1,5 @@
+'use client'
+
 import Image from "next/image"
 import { AiFillCaretLeft, AiFillCaretRight } from "react-icons/ai"
 import { useState } from 'react'
